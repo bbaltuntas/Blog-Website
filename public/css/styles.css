@@ -1,0 +1,89 @@
+:root {
+    --primaryColor: #00ADB5;
+    --accentColor: #393E46;
+    --footerBgc: #EEEEEE;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: var(--primaryColor) !important;
+    letter-spacing: 3px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.main-cont {
+    align-self: center;
+    width: 85%;
+
+}
+
+.container-fluid {
+    width: 85%;
+}
+
+.footer {
+    color: var(--accentColor);
+    width: 100%;
+    text-align: center;
+    background-color: var(--footerBgc);
+    position: fixed;
+    bottom: 0;
+
+}
+
+.cont {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.addButton {
+    background-color: var(--primaryColor);
+    border-color: var(--primaryColor);
+    color: var(--footerBgc);
+    align-self: flex-start;
+}
+
+.floating-container {
+    position: fixed;
+    right: 4%;
+    bottom: 8%;
+    z-index: 5;
+}
+
+.floating-button {
+    background-color: var(--primaryColor);
+    border-color: var(--primaryColor);
+    border-radius: 100%;
+}
+
+.floating-button:hover, .addButton:hover {
+    background-color: var(--accentColor);
+    border-color: var(--accentColor);
+}
+
+.read-more-text {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--primaryColor);
+}
+
+.read-more-text:hover, .read-more-text:active {
+    color: var(--accentColor);
+}
+
+.spacer {
+    padding: 5%;
+}
