@@ -26,7 +26,7 @@ Users should be able to:
 
 ## Screenshot
 
-###Desktop View
+### Desktop View
 ![](design/ss1.png)
 ![](design/ss2.png)
 
